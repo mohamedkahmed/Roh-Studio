@@ -208,7 +208,7 @@ const handelplay = () => {
                   }`}
                   onClick={() => setActiveTab("covers")}
                 >
-                  الغلافات
+                  البوسترات
                 </li>
                 <li
                   className={`${liStyle} ${
