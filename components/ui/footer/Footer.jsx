@@ -23,7 +23,7 @@ const Footer = () => {
             <div className='flex flex-col gap-4 items-start jsutify-start'>
                 <Link className={textColor} href="/about">عنا</Link>
                 <Link className={textColor} href="/contact">تواصل معنا</Link>
-                <Link className={textColor} href="ظservices">خدمات</Link>
+                <Link className={textColor} href="/services">خدمات</Link>
                 <Link className={textColor} href="/series">الإعمال</Link>
                 <Link className={textColor} href="/pressReleases">المدونات</Link>
             </div>

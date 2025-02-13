@@ -3,6 +3,7 @@ import Image from 'next/image.js'
 import ValuesRohStudio from '@/components/ui/valuesRohStudio/ValuesRohStudio.jsx'
 import OurTeam from '@/components/ui/ourTeam/OurTeam.jsx'
 import { AuthFetchAboutPage } from '@/utils/FetchSeries.js'
+import image from "@/public/images/company.svg"
 const About = () => {
   const {data , loading} = AuthFetchAboutPage()
 
@@ -10,7 +11,7 @@ const About = () => {
     <div>
       <section className='w-full h-[300px] relative mt-20'>
         <Image
-        src={data[0]?.img}
+        src={data[0]?.img || image}
         objectFit='cover'
         fill
         alt='company image'
